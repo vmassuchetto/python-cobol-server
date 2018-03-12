@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-02 13:51-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: api.py:76
+msgid "Common options"
+msgstr ""
+
+#: api.py:78
+msgid "print this help message"
+msgstr "imprime esta mensagem de ajuda"
+
+#: api.py:79
+#, python-format
+msgid "operation name: %s"
+msgstr "nome da operação: %s"
+
+#: api.py:80 api.py:81 api.py:82 api.py:83
+msgid "(required)"
+msgstr "(obrigatorio)"
+
+#: api.py:81
+msgid "path to the copybook file"
+msgstr "caminho para o arquivo copybook"
+
+#: api.py:82
+msgid "path to the datafile"
+msgstr "caminho para o arquivo de dados"
+
+#: api.py:83
+msgid "comma separated list of keys"
+msgstr "lista de chaves separada por virgulas"
+
+#: api.py:84
+msgid "put the main key first and the alternate keys last"
+msgstr "coloque a chave principal antes e as chaves alternadas depois"
+
+#: api.py:85
+msgid "key to use in operation"
+msgstr "chave para usar nesta operacao"
+
+#: api.py:86
+msgid "value to match the key"
+msgstr "valor para comparar com a chave"
+
+#: api.py:87
+msgid "input JSON object for the operation"
+msgstr "objeto JSON de entrada para a operacao"
+
+#: api.py:88 api.py:94
+msgid "check the README.md file for examples"
+msgstr "verifique o arquivo README.md para exemplos"
+
+#: api.py:90
+msgid "Partial search options"
+msgstr "Opcoes para busca parcial"
+
+#: api.py:92
+msgid "super key in case of doing a partial search"
+msgstr "superchave em caso de busca parcial"
+
+#: api.py:93
+msgid "part of --keyname in the --superkeyname as a [start:end] format"
+msgstr "parte de --keyname em --superkeyname no formato [inicio:fim]"
+
+#: api.py:95
+msgid "of how to use partial key searches"
+msgstr "de como usar buscas parciais"
+
+#: api.py:116
+msgid "ERROR: No arguments provided."
+msgstr "ERRO: Nenhum argumento fornecido."
+
+#: api.py:120
+msgid "ERROR: --operation option required."
+msgstr "ERRO: opcao --operation obrigatoria."
+
+#: api.py:123
+#, python-format
+msgid "ERROR: Supported operations: %s."
+msgstr "ERRO: Operacoes suportadas: %s."
+
+#: api.py:134
+#, python-format
+msgid "ERROR: Required options: %s."
+msgstr "ERRO: Opcoes obrigatorias: %s"
+
+#: api.py:140
+#, python-format
+msgid "ERROR: Invalid file in --%s option."
+msgstr "ERRO: Arquivo invalido na opcao --%s."
+
+#: api.py:147
+#, python-format
+msgid "ERROR: --keyname and --keyvalue required for operation %s."
+msgstr "ERRO: --keyname e --keyvalue sao obrigatorios para a operacao %s"
+
+#: api.py:155 api.py:562
+msgid "ERROR: Could not parse JSON object input."
+msgstr "ERRO: Nao foi possivel analisar o objeto JSON de entrada."
+
+#: api.py:162
+#, python-format
+msgid "ERROR: Invalid fields: %s."
+msgstr "ERRO: Campos invalidos: %s."
+
+#: api.py:167
+msgid "ERROR: Superkey not in the copybook."
+msgstr "ERRO: Superchave nao esta no copybook"
+
+#: api.py:169
+msgid "ERROR: --superkeypart required for partial key searches."
+msgstr "ERRO: --superkeypart obrigatorio para buscas parciais de chave."
+
+#: api.py:178
+#, python-format
+msgid "ERROR: File keys \"%s\" must be provided in --input."
+msgstr "ERRO: Chaves de arquivo \"%s\" devem ser fornecidas no --input."
+
+#: api.py:192
+#, python-format
+msgid "ERROR: Could not read the file %s."
+msgstr "ERRO: Nao foi possivel ler o arquivo %s."
+
+#: api.py:201
+#, python-format
+msgid "ERROR: Could not write to the file %s."
+msgstr "ERRO: Nao foi possivel escrever no arquivo %s."
+
+#: api.py:270
+#, python-format
+msgid "ERROR: Template tags not binded: %s."
+msgstr "ERRO: Tags de template nao vinculadas: %s"
+
+#: api.py:312
+#, python-format
+msgid "ERROR: Compilation failed: %s."
+msgstr "ERRO: Falha de compilacao: %s"
+
+#: api.py:452
+#, python-format
+msgid "ERROR: --input value required for %s operation."
+msgstr "ERRO: Valor --input e obrigatorio para a operacao %s."
+
+#~ msgid "ERROR: Compilation failed. Output: %s."
+#~ msgstr "ERRO: Compilacao falhou. Saida: %s."
+
+#~ msgid "value to key lookup"
+#~ msgstr "valor para buscar a chave"
+
+#~ msgid "ERROR: Could not get file descriptor."
+#~ msgstr "ERRO: Nao foi possivel obter o descritor do arquivo."
+
+#~ msgid "ERROR: Key %s is not in the copybook."
+#~ msgstr "ERRO: Chave %s nao esta no copybook."

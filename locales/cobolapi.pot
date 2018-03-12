@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-02 13:51-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: api.py:76
+msgid "Common options"
+msgstr ""
+
+#: api.py:78
+msgid "print this help message"
+msgstr ""
+
+#: api.py:79
+#, python-format
+msgid "operation name: %s"
+msgstr ""
+
+#: api.py:80 api.py:81 api.py:82 api.py:83
+msgid "(required)"
+msgstr ""
+
+#: api.py:81
+msgid "path to the copybook file"
+msgstr ""
+
+#: api.py:82
+msgid "path to the datafile"
+msgstr ""
+
+#: api.py:83
+msgid "comma separated list of keys"
+msgstr ""
+
+#: api.py:84
+msgid "put the main key first and the alternate keys last"
+msgstr ""
+
+#: api.py:85
+msgid "key to use in operation"
+msgstr ""
+
+#: api.py:86
+msgid "value to match the key"
+msgstr ""
+
+#: api.py:87
+msgid "input JSON object for the operation"
+msgstr ""
+
+#: api.py:88 api.py:94
+msgid "check the README.md file for examples"
+msgstr ""
+
+#: api.py:90
+msgid "Partial search options"
+msgstr ""
+
+#: api.py:92
+msgid "super key in case of doing a partial search"
+msgstr ""
+
+#: api.py:93
+msgid "part of --keyname in the --superkeyname as a [start:end] format"
+msgstr ""
+
+#: api.py:95
+msgid "of how to use partial key searches"
+msgstr ""
+
+#: api.py:116
+msgid "ERROR: No arguments provided."
+msgstr ""
+
+#: api.py:120
+msgid "ERROR: --operation option required."
+msgstr ""
+
+#: api.py:123
+#, python-format
+msgid "ERROR: Supported operations: %s."
+msgstr ""
+
+#: api.py:134
+#, python-format
+msgid "ERROR: Required options: %s."
+msgstr ""
+
+#: api.py:140
+#, python-format
+msgid "ERROR: Invalid file in --%s option."
+msgstr ""
+
+#: api.py:147
+#, python-format
+msgid "ERROR: --keyname and --keyvalue required for operation %s."
+msgstr ""
+
+#: api.py:155 api.py:562
+msgid "ERROR: Could not parse JSON object input."
+msgstr ""
+
+#: api.py:162
+#, python-format
+msgid "ERROR: Invalid fields: %s."
+msgstr ""
+
+#: api.py:167
+msgid "ERROR: Superkey not in the copybook."
+msgstr ""
+
+#: api.py:169
+msgid "ERROR: --superkeypart required for partial key searches."
+msgstr ""
+
+#: api.py:178
+#, python-format
+msgid "ERROR: File keys \"%s\" must be provided in --input."
+msgstr ""
+
+#: api.py:192
+#, python-format
+msgid "ERROR: Could not read the file %s."
+msgstr ""
+
+#: api.py:201
+#, python-format
+msgid "ERROR: Could not write to the file %s."
+msgstr ""
+
+#: api.py:270
+#, python-format
+msgid "ERROR: Template tags not binded: %s."
+msgstr ""
+
+#: api.py:312
+#, python-format
+msgid "ERROR: Compilation failed: %s."
+msgstr ""
+
+#: api.py:452
+#, python-format
+msgid "ERROR: --input value required for %s operation."
+msgstr ""
